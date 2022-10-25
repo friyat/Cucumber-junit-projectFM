@@ -6,7 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features"
+        features = "src/test/resources/features" ,
+        glue = "com/cydeo/step_definitions",
+        tags = "@smoke and @employee and not admin"
 )
 public class CukesRunner {
 }

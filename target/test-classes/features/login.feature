@@ -17,7 +17,7 @@ Feature: Library app login feature
     And user enters librarian password
     Then user should see dashboard
 
-    @student
+    @student @db
     Scenario: Login as a student
      # Given user is on the library login page
       When user enters student username

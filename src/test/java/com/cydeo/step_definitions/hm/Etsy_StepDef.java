@@ -1,6 +1,6 @@
 package com.cydeo.step_definitions.hm;
 
-import com.cydeo.pages.homework.Etsy;
+import com.cydeo.pages.homework.EtsyPage;
 import com.cydeo.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -9,7 +9,7 @@ import org.junit.Assert;
 
 public class Etsy_StepDef {
 
-    Etsy etsy = new Etsy();
+    EtsyPage etsy = new EtsyPage();
     @Given("user is on etsy home page")
     public void user_is_on_etsy_home_page() {
         Driver.getDriver().get("https://www.etsy.com/?ref=lgo");

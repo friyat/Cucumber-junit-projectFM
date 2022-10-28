@@ -2,6 +2,11 @@ package com.cydeo.utilities;
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class BrowserUtils {
@@ -9,6 +14,12 @@ public class BrowserUtils {
     //Methods are static.Because we do not want to creat an object to call those methods.
     //We just want to call those methods with class name.
 
+    /**
+     * This method is used to pause the code for given seconds
+     * It is static method we can call with class name
+     * BrowserUtils.sleep(3);
+     * @param seconds
+     */
 
     public static void sleep(int seconds) {
         // 1 second = 1000 millis
@@ -29,8 +40,37 @@ public class BrowserUtils {
     //• Arg1: WebDriver
     //• Arg2: String expectedTitle
     public static void verifyTitle(WebDriver driver, String expectedTitle){
-        String actualTitle = Driver.getDriver().getTitle();
-        Assert.assertEquals(expectedTitle,Driver.getDriver().getTitle());
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(expectedTitle,actualTitle);
+    }
+    public static void waitForInvisibilityOf(WebElement element) {
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 15);
+        wait.until(ExpectedConditions.invisibilityOf(element));
+    }
+    /**
+     * This method will accept dropdown as a WebElement
+     * and return all the options' text in a List of String
+     * @return List<String>
+     */
+    public static List<String> dropdownOptionsAsString(WebElement dropdownElement) {
+
+        Select select = new Select(dropdownElement);
+
+        //List of all ACTUAL month <options> as a WebElement
+        List<WebElement> actualOptionsAsWebElement = select.getOptions();
+
+        //List of all ACTUAL month options as a String
+        List<String> actualOptionsAsString = new ArrayList<>();
+
+        // with using for loop we will convert each WebElement of options to String wit using getText() method
+        // with using add() method we will add each String option in List<String> actual options as String
+        for (WebElement each : actualOptionsAsWebElement) {
+            actualOptionsAsString.add(each.getText());
+        }
+
+        return actualOptionsAsString;
     }
 
-}
+
+
+    }

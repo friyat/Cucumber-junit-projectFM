@@ -26,7 +26,7 @@ public class wikiSearch_StepDef {
     }
     @Then("User sees Steve Jobs is in the wiki title")
     public void user_sees_steve_jobs_is_in_the_wiki_title() {
-        Assert.assertTrue(Driver.getDriver().getTitle().contains("Steve Jobs"));
+        Assert.assertTrue("Title verification is failed!",Driver.getDriver().getTitle().contains("Steve Jobs"));
 
     }
     @When("User types {string} in the wiki search box")

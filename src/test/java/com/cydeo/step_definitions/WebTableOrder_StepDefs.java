@@ -13,6 +13,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.Select;
 
 public class WebTableOrder_StepDefs {
@@ -45,7 +46,7 @@ public class WebTableOrder_StepDefs {
         //default there was already number in this input
         //first we need to clean that input and we will send keys later
        // webTableOrderPage.inputQuantity.clear();
-        webTableOrderPage.inputQuantity.sendKeys();
+        webTableOrderPage.inputQuantity.sendKeys(Keys.BACK_SPACE);
 
         //accepting int arg and sending text using sendkeys() method
         //since sendKeys() method only accepts String, we need to either concat with ""
@@ -55,11 +56,13 @@ public class WebTableOrder_StepDefs {
     }
     @When("user enters customer name {string}")
     public void user_enters_customer_name(String string) {
+
         webTableOrderPage.inputName.sendKeys(string);
 
     }
     @When("user enters street {string}")
     public void user_enters_street(String string) {
+
         webTableOrderPage.inputStreet.sendKeys(string);
 
     }
@@ -91,6 +94,7 @@ public class WebTableOrder_StepDefs {
     }
     @When("user enters credit card number {string}")
     public void user_enters_credit_card_number(String string) {
+
         webTableOrderPage.inputCardNo.sendKeys(string);
 
     }
@@ -105,11 +109,10 @@ public class WebTableOrder_StepDefs {
 
     }
     @Then("user should see {string} in first row of the web table")
-    public void user_should_see_in_first_row_of_the_web_table(String string){
+    public void user_should_see_in_first_row_of_the_web_table(String expectedCustomerName){
         String actualCustomerName = viewAllOrdersPage.newCustomerCell.getText();
+       Assert.assertEquals(expectedCustomerName,actualCustomerName);
 
-
-        Assert.assertEquals(expectedCustomerName,actualCustomerName);
 
 
 

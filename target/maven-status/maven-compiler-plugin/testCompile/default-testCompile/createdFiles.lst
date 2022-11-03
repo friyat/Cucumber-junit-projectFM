@@ -21,4 +21,5 @@ com/cydeo/step_definitions/Login_StepDefinitions.class
 com/cydeo/step_definitions/hm/Etsy_StepDef.class
 com/cydeo/utilities/Driver.class
 com/cydeo/pages/GoogleSearchPage.class
+com/cydeo/utilities/BrowserUtils$1.class
 com/cydeo/pages/WebTableLoginPage.class

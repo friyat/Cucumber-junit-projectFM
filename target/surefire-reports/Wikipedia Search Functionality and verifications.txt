@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Wikipedia Search Functionality and verifications
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 0.279 s <<< FAILURE! - in Wikipedia Search Functionality and verifications
-Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification #1  Time elapsed: 0.023 s  <<< ERROR!
+Tests run: 16, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 0.206 s <<< FAILURE! - in Wikipedia Search Functionality and verifications
+Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification #1  Time elapsed: 0.037 s  <<< ERROR!
 io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.wikiSearch_StepDef
 Caused by: java.lang.reflect.InvocationTargetException
 Caused by: java.lang.NullPointerException
@@ -10,7 +10,7 @@ Caused by: java.lang.NullPointerException
 Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification #1  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 
-Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification #2  Time elapsed: 0.024 s  <<< ERROR!
+Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification #2  Time elapsed: 0.032 s  <<< ERROR!
 io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.wikiSearch_StepDef
 Caused by: java.lang.reflect.InvocationTargetException
 Caused by: java.lang.NullPointerException
@@ -18,7 +18,7 @@ Caused by: java.lang.NullPointerException
 Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification #2  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 
-Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #1  Time elapsed: 0.047 s  <<< ERROR!
+Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #1  Time elapsed: 0.014 s  <<< ERROR!
 io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.wikiSearch_StepDef
 Caused by: java.lang.reflect.InvocationTargetException
 Caused by: java.lang.NullPointerException
@@ -26,7 +26,7 @@ Caused by: java.lang.NullPointerException
 Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #1  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 
-Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #2  Time elapsed: 0.023 s  <<< ERROR!
+Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #2  Time elapsed: 0.03 s  <<< ERROR!
 io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.wikiSearch_StepDef
 Caused by: java.lang.reflect.InvocationTargetException
 Caused by: java.lang.NullPointerException
@@ -34,7 +34,7 @@ Caused by: java.lang.NullPointerException
 Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #2  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 
-Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #3  Time elapsed: 0.026 s  <<< ERROR!
+Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #3  Time elapsed: 0.019 s  <<< ERROR!
 io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.wikiSearch_StepDef
 Caused by: java.lang.reflect.InvocationTargetException
 Caused by: java.lang.NullPointerException
@@ -42,7 +42,7 @@ Caused by: java.lang.NullPointerException
 Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #3  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 
-Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #4  Time elapsed: 0.009 s  <<< ERROR!
+Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #4  Time elapsed: 0.02 s  <<< ERROR!
 io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.wikiSearch_StepDef
 Caused by: java.lang.reflect.InvocationTargetException
 Caused by: java.lang.NullPointerException
@@ -50,7 +50,7 @@ Caused by: java.lang.NullPointerException
 Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #4  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 
-Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #5  Time elapsed: 0.017 s  <<< ERROR!
+Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #5  Time elapsed: 0.028 s  <<< ERROR!
 io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.wikiSearch_StepDef
 Caused by: java.lang.reflect.InvocationTargetException
 Caused by: java.lang.NullPointerException
@@ -58,7 +58,7 @@ Caused by: java.lang.NullPointerException
 Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #5  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 
-Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #6  Time elapsed: 0.097 s  <<< ERROR!
+Wikipedia Search Functionality and verifications.Wikipedia Search Functionality Title Verification with using DDT #6  Time elapsed: 0.022 s  <<< ERROR!
 io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.wikiSearch_StepDef
 Caused by: java.lang.reflect.InvocationTargetException
 Caused by: java.lang.NullPointerException

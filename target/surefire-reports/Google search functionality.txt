@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: Google search functionality
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 74.443 s <<< FAILURE! - in Google search functionality
+Google search functionality.Search functionality result title verification #1  Time elapsed: 74.422 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user sees apple – Google Search is in the google title' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("user sees apple – Google Search is in the google title")
+public void user_sees_apple_google_search_is_in_the_google_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Google search functionality.Search functionality result title verification #2  Time elapsed: 0.021 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.GoogleSearch_StepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Google search functionality.Search functionality result title verification #2  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+

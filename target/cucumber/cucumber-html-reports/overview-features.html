@@ -50,11 +50,11 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                78,
+                26,
+                27,
+                190,
                 0,
-                0,
-                0,
-                0
+                1
             ],
             backgroundColor: [
                 "#00B000",
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 78) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 244) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -106,8 +106,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                6,
-                0
+                2,
+                32
             ],
             backgroundColor: [
                 "#00B000",
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 6) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 34) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -153,8 +153,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   1,
-                   0
+                   2,
+                   7
                ],
                backgroundColor: [
                 "#00B000",
@@ -187,7 +187,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 9) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -228,7 +228,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>01 Nov 2022, 10:17</td>
+      <td>03 Nov 2022, 10:00</td>
     </tr>
   </tbody>
 </table>
@@ -323,54 +323,190 @@ $(document).ready(function() {
 
   <tbody>
       <tr>
-        <td class="tagname"><a href="report-feature_990937031.html">Web table user order feature</a></td>
+        <td class="tagname"><a href="report-feature_1225360460.html">Practice page dropdown options</a></td>
 
-        <td      class="passed"    >78</td>
+        <td      class="passed"    >2</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">78</td>
+        <td class="total">2</td>
 
-        <td  class="passed"    >6</td>
+        <td  class="passed"    >1</td>
         <td >0</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="52755748000">52.755</td>
+        <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_1_2933358030.html">Eating too many cucumber may not good for you</a></td>
+
+        <td      class="passed"    >3</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">3</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="11387000">0.011</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_2_2151391632.html">Etsy search functionality and verification</a></td>
+
+        <td      class="passed"    >3</td>
+        <td      class="failed"    >2</td>
+        <td     class="skipped"   >3</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">8</td>
+
+        <td >0</td>
+        <td  class="failed"    >2</td>
+        <td class="total">2</td>
+
+        <td class="duration" data-value="82034358000">1:22.034</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_3_3526047612.html">Google search functionality</a></td>
+
+        <td      class="passed"    >2</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >2</td>
+        <td >0</td>
+        <td   class="undefined" >1</td>
         <td class="total">6</td>
 
-        <td class="duration" data-value="64603820000">1:4.603</td>
+        <td >0</td>
+        <td  class="failed"    >2</td>
+        <td class="total">2</td>
+
+        <td class="duration" data-value="73869143000">1:13.869</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_4_4008116834.html">Hioscar.com care options web app testing</a></td>
+
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">0</td>
+
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="0">0.000</td>
         <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_5_965572540.html">Library app login feature</a></td>
+
+        <td      class="passed"    >12</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">12</td>
+
+        <td >0</td>
+        <td  class="failed"    >3</td>
+        <td class="total">3</td>
+
+        <td class="duration" data-value="4795000">0.004</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_6_2536807650.html">user should be able to loin with valid credentials</a></td>
+
+        <td      class="passed"    >4</td>
+        <td      class="failed"    >3</td>
+        <td     class="skipped"   >4</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">11</td>
+
+        <td >0</td>
+        <td  class="failed"    >3</td>
+        <td class="total">3</td>
+
+        <td class="duration" data-value="54493831000">54.493</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_7_990937031.html">Web table user order feature</a></td>
+
+        <td >0</td>
+        <td      class="failed"    >13</td>
+        <td     class="skipped"   >156</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">169</td>
+
+        <td >0</td>
+        <td  class="failed"    >13</td>
+        <td class="total">13</td>
+
+        <td class="duration" data-value="34246000">0.034</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_8_2924854890.html">Wikipedia Search Functionality and verifications</a></td>
+
+        <td >0</td>
+        <td      class="failed"    >8</td>
+        <td     class="skipped"   >25</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">33</td>
+
+        <td >0</td>
+        <td  class="failed"    >8</td>
+        <td class="total">8</td>
+
+        <td class="duration" data-value="12966000">0.012</td>
+        <td class="failed">Failed</td>
       </tr>
   </tbody>
 
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>78</td>
+      <td>26</td>
+      <td>27</td>
+      <td>190</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>78</td>
-
-      <td>6</td>
-      <td>0</td>
-      <td>6</td>
-
-      <td class="duration">1:4.603</td>
       <td>1</td>
+      <td>244</td>
+
+      <td>2</td>
+      <td>32</td>
+      <td>34</td>
+
+      <td class="duration">4:23.216</td>
+      <td>9</td>
     </tr>
     <tr>
       <td></td>
-      <td>100.00%</td>
+      <td>10.66%</td>
+      <td>11.07%</td>
+      <td>77.87%</td>
       <td>0.00%</td>
-      <td>0.00%</td>
-      <td>0.00%</td>
-      <td>0.00%</td>
+      <td>0.41%</td>
       <td></td>
-      <td>100.00%</td>
-      <td>0.00%</td>
+      <td>5.88%</td>
+      <td>94.12%</td>
       <td></td>
       <td></td>
-      <td>100.00%</td>
+      <td>22.22%</td>
     </tr>
   </tfoot>
 </table>

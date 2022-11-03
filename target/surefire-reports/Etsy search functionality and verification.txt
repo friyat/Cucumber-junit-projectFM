@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: Etsy search functionality and verification
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 82.61 s <<< FAILURE! - in Etsy search functionality and verification
+Etsy search functionality and verification.Etsy search functionality and title verification  Time elapsed: 82.584 s  <<< ERROR!
+java.lang.NullPointerException
+
+Etsy search functionality and verification.Etsy search functionality and title verification  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Etsy search functionality and verification.Etsy Search Functionality Title Verification  Time elapsed: 0.026 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.hm.EtsySearch_StepDef
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Etsy search functionality and verification.Etsy Search Functionality Title Verification  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+

@@ -1,0 +1,108 @@
+-------------------------------------------------------------------------------
+Test set: Web table user order feature
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 0, Errors: 26, Skipped: 0, Time elapsed: 0.726 s <<< FAILURE! - in Web table user order feature
+Web table user order feature.User should be able to place order and order seen in web table  Time elapsed: 0.122 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.WebTableOrder_StepDefs
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Web table user order feature.User should be able to place order and order seen in web table  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Web table user order feature. #1  Time elapsed: 0.101 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.WebTableOrder_StepDefs
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Web table user order feature. #1  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Web table user order feature. #2  Time elapsed: 0.034 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.WebTableOrder_StepDefs
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Web table user order feature. #2  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Web table user order feature. #3  Time elapsed: 0.062 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.WebTableOrder_StepDefs
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Web table user order feature. #3  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Web table user order feature. #4  Time elapsed: 0.017 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.WebTableOrder_StepDefs
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Web table user order feature. #4  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Web table user order feature. #5  Time elapsed: 0.044 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.WebTableOrder_StepDefs
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Web table user order feature. #5  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Web table user order feature. #6  Time elapsed: 0.076 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.WebTableOrder_StepDefs
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Web table user order feature. #6  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Web table user order feature. #7  Time elapsed: 0.096 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.WebTableOrder_StepDefs
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Web table user order feature. #7  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Web table user order feature. #8  Time elapsed: 0.064 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.WebTableOrder_StepDefs
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Web table user order feature. #8  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Web table user order feature. #9  Time elapsed: 0.016 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.WebTableOrder_StepDefs
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Web table user order feature. #9  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Web table user order feature. #10  Time elapsed: 0.027 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.WebTableOrder_StepDefs
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Web table user order feature. #10  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Web table user order feature. #11  Time elapsed: 0.026 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.WebTableOrder_StepDefs
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Web table user order feature. #11  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Web table user order feature. #12  Time elapsed: 0.015 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.WebTableOrder_StepDefs
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
+Web table user order feature. #12  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+

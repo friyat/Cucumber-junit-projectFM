@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: Library app login feature
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.085 s <<< FAILURE! - in Library app login feature
+Library app login feature.Login as a librarian  Time elapsed: 0.047 s  <<< ERROR!
+java.lang.NullPointerException
+
+Library app login feature.Login as a student #1  Time elapsed: 0.017 s  <<< ERROR!
+java.lang.NullPointerException
+
+Library app login feature.Login as a student #2  Time elapsed: 0.02 s  <<< ERROR!
+java.lang.NullPointerException
+

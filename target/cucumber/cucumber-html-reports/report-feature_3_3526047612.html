@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>03 Nov 2022, 11:24</td>
+      <td>03 Nov 2022, 20:52</td>
     </tr>
   </tbody>
 </table>
@@ -128,17 +128,17 @@ $(document).ready(function() {
         <tr>
           <td class="tagname">Google search functionality</td>
           <td      class="passed"    >2</td>
-          <td      class="failed"    >1</td>
+          <td      class="failed"    >2</td>
           <td     class="skipped"   >2</td>
           <td >0</td>
-          <td   class="undefined" >1</td>
+          <td >0</td>
           <td class="total">6</td>
 
           <td >0</td>
           <td  class="failed"    >2</td>
           <td class="total">2</td>
 
-          <td class="duration" data-value="37744275000">37.744</td>
+          <td class="duration" data-value="38475581000">38.475</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -187,10 +187,12 @@ $(document).ready(function() {
 
 
 <div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_4089311534.html">@smoke</a>
 </div>
 
 
-  <span class="lead-duration duration">37.743</span>
+  <span class="lead-duration duration">38.475</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
@@ -233,7 +235,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">user is on Google search page</span>
 
-  <span class="lead-duration duration">24.129</span>
+  <span class="lead-duration duration">24.596</span>
 
 </div>
 
@@ -260,7 +262,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user types apple in the google search box and clicks enter</span>
 
-  <span class="lead-duration duration">13.614</span>
+  <span class="lead-duration duration">13.878</span>
 
 </div>
 
@@ -283,9 +285,9 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then undefined">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
-  <span class="name">user sees apple &ndash; Google Search is in the google title</span>
+  <span class="name">user sees <span class="argument">&quot;apple &ndash; Google Search&quot;</span> is in the google title</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -295,6 +297,21 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
+          <a>java.lang.NullPointerException</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details  in ">
+        <pre>java.lang.NullPointerException
+	at com.cydeo.utilities.Driver.getDriver(Driver.java:26)
+	at com.cydeo.step_definitions.GoogleSearch_StepDefinitions.user_sees_is_in_the_google_title(GoogleSearch_StepDefinitions.java:43)
+	at &#10045;.user sees &quot;apple &ndash; Google Search&quot; is in the google title(file:///Users/dawitgebrekidan/Cucumber-junit-project/src/test/resources/features/googleSearch.feature:9)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -314,9 +331,9 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-3">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-4">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -326,9 +343,9 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-3" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details  in ">
         <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">After</span>
               <span class="location name">com.cydeo.step_definitions.Hooks.teardownScenario(io.cucumber.java.Scenario)</span>
 
@@ -337,6 +354,20 @@ $(document).ready(function() {
           </div>
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-5">
+          <a>Error message</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details  in ">
+        <pre>java.lang.NullPointerException
+	at com.cydeo.utilities.Driver.getDriver(Driver.java:26)
+	at com.cydeo.step_definitions.Hooks.teardownScenario(Hooks.java:18)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -360,7 +391,7 @@ $(document).ready(function() {
   <span class="lead-duration duration">0.000</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-4">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-6">
 
 <div class="brief failed">
   <span class="keyword indention">Scenario</span>
@@ -373,14 +404,14 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-4" class="collapse collapsable-details  in ">
+  <div id="element-6" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-5">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-7">
 
 <div class="brief failed">
   <span class="keyword indention">Steps</span>
@@ -392,7 +423,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-5" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-7" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -411,10 +442,10 @@ $(document).ready(function() {
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-8">
           <a>io.cucumber.core.exception.CucumberException:</a>
       </div>
-      <div id="msg-6" class="collapse collapsable-details  in ">
+      <div id="msg-8" class="collapse collapsable-details  in ">
         <pre>io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.GoogleSearch_StepDefinitions
 	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
 	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
@@ -541,7 +572,7 @@ Caused by: java.lang.NullPointerException
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-7">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-9">
 
 <div class="brief failed">
   <span class="keyword indention">Hooks</span>
@@ -553,7 +584,7 @@ Caused by: java.lang.NullPointerException
 
     </div>
 
-    <div id="after-7" class="inner-level collapse collapsable-details  in ">
+    <div id="after-9" class="inner-level collapse collapsable-details  in ">
         <div class="hook">
           <div class="brief failed">
             <span class="keyword indention">After</span>
@@ -567,10 +598,10 @@ Caused by: java.lang.NullPointerException
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-8">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-10">
           <a>Error message</a>
       </div>
-      <div id="msg-8" class="collapse collapsable-details  in ">
+      <div id="msg-10" class="collapse collapsable-details  in ">
         <pre>java.lang.NullPointerException
 	at com.cydeo.utilities.Driver.getDriver(Driver.java:26)
 	at com.cydeo.step_definitions.Hooks.teardownScenario(Hooks.java:18)

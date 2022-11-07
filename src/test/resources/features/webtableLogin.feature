@@ -11,7 +11,7 @@ Feature: user should be able to loin with valid credentials
     And user clicks to login button
     Then user should see url contains orders
 
-Scenario: Login scenario with 2 param
+    Scenario: Login scenario with 2 param
   When user enters username "Test" password "Tester"
   Then user should see url contains orders
 

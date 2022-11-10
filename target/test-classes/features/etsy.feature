@@ -10,7 +10,7 @@ Feature: Etsy search functionality and verification
 
 
 
-@smoke
+
   Scenario: Etsy Search Functionality Title Verification
     Given user is on the etsy home page
     When user types "Wooden Spoon" in the search box

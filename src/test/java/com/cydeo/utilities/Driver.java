@@ -23,7 +23,7 @@ public class Driver {
      */
     public static WebDriver getDriver() {
 
-        if(driverPool .get()== null){//if driver/browser was never opened
+        if(driverPool.get()== null){//if driver/browser was never opened
             String browserType = ConfigurationReader.getProperty("browser");
 /*
 
@@ -50,7 +50,7 @@ public class Driver {
     public static void closeDriver() {
         if (driverPool!=null) {
             driverPool.get().quit();//this line will kill the session.
-            driverPool = null;
+            driverPool.remove();
         }
 
     }

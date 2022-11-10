@@ -1,2 +1,1 @@
-file:src/test/resources/features/googleSearch.feature:6
 file:src/test/resources/features/wiki_search.feature:14

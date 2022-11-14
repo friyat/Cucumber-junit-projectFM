@@ -11,8 +11,8 @@ import java.util.List;
 
 public class DashboardPage {
 
-    public DashboardPage(){
-        PageFactory.initElements(Driver.getDriver(),this);
+    public DashboardPage() {
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(xpath = "//ul[@id='appmenu']/li")
@@ -43,14 +43,17 @@ public class DashboardPage {
 
             BrowserUtils.hover(modules1.get(i));
             BrowserUtils.sleep(1);
-           // if (modules1.get(i).getText().equals(moduleName)) {
-               // BrowserUtils.clickElement(modules1.get(i));
-               // break;
+            if (modules1.get(i).getText().contains(moduleName)) {
+                BrowserUtils.hover(modules1.get(i));
+                modules1.get(i).click();
+
+                break;
             }
 
         }
 
     }
+}
 
 
 

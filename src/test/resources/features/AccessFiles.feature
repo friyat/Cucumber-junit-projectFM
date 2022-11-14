@@ -1,9 +1,12 @@
 Feature:
-  @us_04
+@WIP
   Scenario Outline: Test login with valid credentials
     Given user on the login page
     When user enters valid "<username>" and valid "<password>" and clicks login button
-
+    When the user clicks the "Files" module
+    Then verify the page title is "Files - Trycloud QA"
+    And user click the top-left checkbox of the table
+    Then verify all the files are selected
 
     Examples:
       | username | password    |
@@ -12,11 +15,3 @@ Feature:
       | User71   | Userpass123 |
       | User101  | Userpass123 |
 
-  @us_04
-  Scenario: verify users can access to Files module Given user on the dashboard page
-    When the user clicks the "Files" module
-    Then verify the page title is "Files - Trycloud QA"
-
-  Scenario: verify users can select all the uploaded files from the page Given user on the dashboard page
-    And user click the top-left checkbox of the table
-    Then verify all the files are selected

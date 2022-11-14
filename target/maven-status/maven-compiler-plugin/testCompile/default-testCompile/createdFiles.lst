@@ -1,12 +1,16 @@
+com/cydeo/step_definitions/TryCloudFiles_StepDef.class
 com/cydeo/step_definitions/Hooks.class
 com/cydeo/step_definitions/WebTableOrder_StepDefs.class
 com/cydeo/pages/DropdownsPage.class
 com/cydeo/step_definitions/GoogleSearch_StepDefinitions.class
+com/cydeo/pages/FilesPage.class
 com/cydeo/runner/FailedTestRunner.class
 com/cydeo/step_definitions/wikiSearch_StepDef.class
 com/cydeo/step_definitions/hm/EtsySearch_StepDef.class
 com/cydeo/utilities/BrowserUtils.class
+com/cydeo/pages/HioscarPage.class
 com/cydeo/runner/CukesRunner.class
+com/cydeo/step_definitions/Hioscar_StepDef.class
 com/cydeo/pages/homework/EtsyPage.class
 com/cydeo/step_definitions/EatingCucumber.class
 com/cydeo/pages/ViewAllOrdersPage.class

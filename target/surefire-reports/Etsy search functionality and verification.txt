@@ -1,18 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: Etsy search functionality and verification
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 36.549 s <<< FAILURE! - in Etsy search functionality and verification
-Etsy search functionality and verification.Etsy search functionality and title verification  Time elapsed: 36.494 s  <<< ERROR!
-java.lang.NullPointerException
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 125.056 s <<< FAILURE! - in Etsy search functionality and verification
+Etsy search functionality and verification.Etsy search functionality and title verification  Time elapsed: 85.299 s  <<< FAILURE!
+java.lang.AssertionError
 
-Etsy search functionality and verification.Etsy search functionality and title verification  Time elapsed: 0 s  <<< ERROR!
-java.lang.NullPointerException
-
-Etsy search functionality and verification.Etsy Search Functionality Title Verification  Time elapsed: 0.054 s  <<< ERROR!
-io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.hm.EtsySearch_StepDef
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: java.lang.NullPointerException
-
-Etsy search functionality and verification.Etsy Search Functionality Title Verification  Time elapsed: 0 s  <<< ERROR!
-java.lang.NullPointerException
+Etsy search functionality and verification.Etsy Search Functionality Title Verification  Time elapsed: 39.755 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/span[@class='wt-icon wt-nudge-b-2 wt-nudge-r-1']//*[name()='svg']"}
+  (Session info: chrome=107.0.5304.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Dawits-MacBook-Air.local', ip: '2601:249:8100:fba0:50a0:59fc:6e8a:322b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/1f/269s82mj7s7...}, goog:chromeOptions: {debuggerAddress: localhost:51892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbb11a4b5b3b96a27a361e0afa3f600d
+*** Element info: {Using=xpath, value=/span[@class='wt-icon wt-nudge-b-2 wt-nudge-r-1']//*[name()='svg']}
 

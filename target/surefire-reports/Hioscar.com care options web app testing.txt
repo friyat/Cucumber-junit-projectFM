@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: Hioscar.com care options web app testing
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in Hioscar.com care options web app testing
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 57.673 s <<< FAILURE! - in Hioscar.com care options web app testing
+Hioscar.com care options web app testing.user should be able to select options  Time elapsed: 57.673 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='Dropdown_visibleContent__NGHUm'])[2]"}
+  (Session info: chrome=107.0.5304.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Dawits-MacBook-Air.local', ip: '2601:249:8100:fba0:50a0:59fc:6e8a:322b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/1f/269s82mj7s7...}, goog:chromeOptions: {debuggerAddress: localhost:51633}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f1f4ed15b016622ef8e5ce832b527dca
+*** Element info: {Using=xpath, value=(//div[@class='Dropdown_visibleContent__NGHUm'])[2]}
+

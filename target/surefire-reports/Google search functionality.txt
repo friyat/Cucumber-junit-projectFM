@@ -1,18 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Google search functionality
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 39.023 s <<< FAILURE! - in Google search functionality
-Google search functionality.Search functionality result title verification #1  Time elapsed: 39.009 s  <<< ERROR!
-java.lang.NullPointerException
-
-Google search functionality.Search functionality result title verification #1  Time elapsed: 0 s  <<< ERROR!
-java.lang.NullPointerException
-
-Google search functionality.Search functionality result title verification #2  Time elapsed: 0.012 s  <<< ERROR!
-io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cydeo.step_definitions.GoogleSearch_StepDefinitions
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: java.lang.NullPointerException
-
-Google search functionality.Search functionality result title verification #2  Time elapsed: 0 s  <<< ERROR!
-java.lang.NullPointerException
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 102.939 s - in Google search functionality
